@@ -1,0 +1,272 @@
+nav{
+display: flex;
+justify-content: center;    
+flex-direction: row;
+background-color: black;
+color: white;
+}
+
+nav ul{
+
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.Personal{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('C:/Users/Mohammed/Desktop/GSG/me/per.jpg');
+    color: aliceblue;
+}
+
+.title1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.information{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: 3px solid black;
+}
+
+.data{
+    height: 100%;
+    width: 30%;
+}
+
+.data td{
+    text-align: center;
+    font-size: large;
+    border: 3px solid black;
+}
+
+.my-photo{
+   height: 100%;
+   width: 30%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.my-photo img{
+    height: 60%;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.hobbies{
+    height: 100;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hobtext{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+#hobbies{
+    height: 80;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact{
+    height: 30vh;
+    width: 100%;
+    background-image: url('C:/Users/Mohammed/Desktop/GSG/me/contact.jpg');
+}
+
+.title2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title2 h1{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-information{
+    height: 80%;
+    width: 100%;
+    
+}
+
+td img{
+    height: 70%;
+    width: 30%;
+}
+
+.edu{
+    height: 30vh;
+    width: 100%;
+    background-image: url('C:/Users/Mohammed/Desktop/GSG/me/edu.jpg');
+}
+
+.title3{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.eduCon{
+    height: 70%;
+    width: 100%;
+}
+
+table{
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+    
+}
+th{
+    font-size: larger;
+    letter-spacing: 1px;
+}
+.eduCon td{
+    text-align: center;
+    font-size: larger;
+    border: 3px solid black;
+    background-color: rgb(157, 150, 150,0.5);
+    font-weight: 800;
+}
+
+.eduCon th{
+    border: 3px solid black;
+    background-color: rgb(157, 150, 150,0.5);
+}
+
+.reason{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('C:/Users/Mohammed/Desktop/GSG/me/why.PNG');
+}
+
+.why{
+    height: 20% ;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.ans{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 1000;
+    font-size: large;
+}
+
+.contact-information th{
+    border: 3px solid black;
+    background-color: rgb(157, 150, 150,0.8);
+}
+
+.contact-information td{
+    text-align: center;
+    font-size: larger;
+    border: 3px solid black;
+    background-color: rgb(157, 150, 150,0.7);
+    font-weight: 800;
+}
+
+
+footer {
+    height: 30%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+
+@media(max-width: 1000px){
+  
+.eduCon td {
+    font-size: small;
+}
+
+.eduCon th {
+    font-size: small;
+}
+
+.contact-information th{
+    font-size: small;
+}
+
+.contact-information td{
+    font-size: small;
+}
+#email{
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word
+}
+.data td{
+    font-size: small;
+}
+
+.why{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.ans{
+    font-size: small;
+}
+
+.my-photo img{
+    height: 20%;
+    width: 40%;
+}
+
+td img{
+    height: 80%;
+    width: 60%;
+}
+
+}
