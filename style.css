@@ -28,7 +28,7 @@ nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('./per.jpg');
+    background-image: url('./photos/per.jpg');
     color: aliceblue;
 }
 
@@ -101,7 +101,7 @@ nav ul li {
 .contact{
     height: 30vh;
     width: 100%;
-    background-image: url('./contact.jpg');
+    background-image: url('./photos/contact.jpg');
 }
 
 .title2{
@@ -131,7 +131,7 @@ td img{
 .edu{
     height: 30vh;
     width: 100%;
-    background-image: url('./edu.jpg');
+    background-image: url('./photos/edu.jpg');
 }
 
 .title3{
@@ -175,7 +175,7 @@ th{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url('./why.PNG');
+    background-image: url('./photos/why.PNG');
 }
 
 .why{
