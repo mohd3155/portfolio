@@ -24,7 +24,7 @@ nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('C:/Users/Mohammed/Desktop/GSG/me/per.jpg');
+    background-image: url('/per.jpg');
     color: aliceblue;
 }
 
@@ -97,7 +97,7 @@ nav ul li {
 .contact{
     height: 30vh;
     width: 100%;
-    background-image: url('C:/Users/Mohammed/Desktop/GSG/me/contact.jpg');
+    background-image: url('/contact.jpg');
 }
 
 .title2{
@@ -127,7 +127,7 @@ td img{
 .edu{
     height: 30vh;
     width: 100%;
-    background-image: url('C:/Users/Mohammed/Desktop/GSG/me/edu.jpg');
+    background-image: url('/edu.jpg');
 }
 
 .title3{
@@ -171,7 +171,7 @@ th{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url('C:/Users/Mohammed/Desktop/GSG/me/why.PNG');
+    background-image: url('/why.PNG');
 }
 
 .why{
